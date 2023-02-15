@@ -7,6 +7,6 @@ jobs:
     environment: test
     steps:
       - name: Echo var
-        run: echo ${{ var.test }}
+        run: echo ${{ var.TEST }}
       - name: Echo secret
-        run: echo ${{ sercets.secret }}
+        run: echo ${{ sercets.SECRET }}
