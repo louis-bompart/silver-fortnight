@@ -9,4 +9,4 @@ jobs:
       - name: Echo var
         run: echo ${{ vars.TEST }}
       - name: Echo secret
-        run: echo ${{ sercets.SECRET }}
+        run: echo ${{ secrets.SECRET }}
