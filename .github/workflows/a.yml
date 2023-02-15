@@ -1,0 +1,6 @@
+name: A
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    uses: ./.github/workflows/b.yml
